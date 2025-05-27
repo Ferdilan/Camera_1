@@ -1,0 +1,9 @@
+1. switch kamera depan belakang
+    Camera.open(0); // kamera belakang
+    Camera.open(1); // kamera depan (jika ada)
+     Aktifkan logika toggle untuk mengatur arah kamera
+
+2. Flash Toggle
+    Camera.Parameters params = mCamera.getParameters();
+    params.setFlashMode(Camera.Parameters.FLASH_MODE_ON); // or OFF / AUTO
+    mCamera.setParameters(params);

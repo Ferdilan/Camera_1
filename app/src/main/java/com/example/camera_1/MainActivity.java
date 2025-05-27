@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
     private boolean cekIzinDitolak(){
         for (String permission : PERMISSIONS) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -197,6 +196,4 @@ public class MainActivity extends AppCompatActivity {
         return mediaFile;
 
     }
-
-
 }
